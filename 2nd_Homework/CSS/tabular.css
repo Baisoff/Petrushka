@@ -1,0 +1,29 @@
+body {
+    background-color: white;
+    
+}
+
+table {
+    width: 100%;
+    border-spacing: 1vw;
+}
+
+.first_row tr{ 
+    background-color: rgb(216, 146, 16);
+    height: 10vh;
+}
+
+.second_row tr{
+    background-color: rgb(221, 221, 11);
+    height: 30vh;
+}
+
+.third_row tr{
+    background-color: rgb(99, 99, 238);
+    height: 22vh;
+}
+
+.fourth_row tr{
+    background-color:rgb(206, 204, 204);
+    height: 18vh;
+}
