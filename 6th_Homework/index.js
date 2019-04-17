@@ -133,24 +133,24 @@ function parseWorkerToTableRow(Plants){
     wname.innerText=Plants['name'];
     row.appendChild(wname);
 
-    age=document.createElement('td');
-    age.innerText=Plants['description'];
+    description=document.createElement('td');
+    description.innerText=Plants['description'];
     row.appendChild(description);
 
-    spec=document.createElement('td');
-    spec.innerText=Plants['species'];
+    species=document.createElement('td');
+    species.innerText=Plants['species'];
     row.appendChild(species);
 
-    exp=document.createElement('td');
-    exp.innerText=Plants['age'];
+    age=document.createElement('td');
+    age.innerText=Plants['age'];
     row.appendChild(age);
 
-    salary=document.createElement('td');
-    salary.innerText=Plants['habitat'];
+    habitat=document.createElement('td');
+    habitat.innerText=Plants['habitat'];
     row.appendChild(habitat);
 
-    gender=document.createElement('td');
-    gender.innerText=Plants['size'];
+    size=document.createElement('td');
+    size.innerText=Plants['size'];
     row.appendChild(size);
     return row;
 }
